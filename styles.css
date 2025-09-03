@@ -1,0 +1,14 @@
+*{box-sizing:border-box}
+:root{--bg:#0b0d12;--fg:#e6edf3;--muted:#9aa4b2;--card:#121721;--accent:#7c5cff}
+html,body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--fg)}
+.wrap{width:min(560px,92%);margin:60px auto}
+h1{margin:0 0 16px}
+.calc{background:var(--card);border:1px solid #1b2230;border-radius:18px;padding:16px}
+.display{width:100%;padding:12px 14px;border:1px solid #293249;border-radius:10px;background:#0b1018;color:var(--fg);font-size:24px;text-align:right;margin-bottom:12px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+button{padding:14px;border-radius:12px;border:1px solid #2b3445;background:#0e131b;color:var(--fg);font-size:16px;cursor:pointer}
+button:hover{filter:brightness(1.05)}
+button:active{transform:translateY(1px)}
+.eq{background:var(--accent);border-color:var(--accent);font-weight:700}
+.span2{grid-column:span 2}
+.hint{color:var(--muted)}

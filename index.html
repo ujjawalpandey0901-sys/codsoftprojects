@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Calculator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="wrap">
+    <h1>Calculator</h1>
+    <div class="calc">
+      <input id="display" class="display" type="text" value="0" aria-label="display" readonly />
+      <div class="grid">
+        <button data-act="clear">C</button>
+        <button data-val="(">(</button>
+        <button data-val=")">)</button>
+        <button data-op="/" aria-label="divide">÷</button>
+
+        <button data-val="7">7</button>
+        <button data-val="8">8</button>
+        <button data-val="9">9</button>
+        <button data-op="*" aria-label="multiply">×</button>
+
+        <button data-val="4">4</button>
+        <button data-val="5">5</button>
+        <button data-val="6">6</button>
+        <button data-op="-" aria-label="minus">−</button>
+
+        <button data-val="1">1</button>
+        <button data-val="2">2</button>
+        <button data-val="3">3</button>
+        <button data-op="+" aria-label="plus">+</button>
+
+        <button data-val="0" class="span2">0</button>
+        <button data-val=".">.</button>
+        <button data-act="eq" class="eq">=</button>
+      </div>
+    </div>
+    <p class="hint">Tip: Use your keyboard! (0–9, +, -, *, /, Enter, Backspace)</p>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
