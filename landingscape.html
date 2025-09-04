@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ujjawal Kumar Pandey — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#hero">UKP</a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>Hi, I'm <span>Ujjawal Kumar Pandey</span></h1>
+        <p>I am a newbie web developer, a delusional and a big dreamer.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn" href="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/profile.jpg" alt="Ujjawal portrait"/>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About</h2>
+      <p>
+        I'm Ujjawal Kumar Pandey, currently pursuing my B.Tech (2nd Year). I am a budding web developer,
+        passionate about coding and competitive programming. I believe in big dreams and continuous growth,
+        and I’m exploring opportunities to build meaningful projects.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills" class="section alt">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>Web Development (Python)</li>
+        <li>Competitive Coding</li>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Problem Solving</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="grid projects">
+        <article class="card">
+          <img src="assets/project1.jpg" alt="Portfolio Project">
+          <div class="card-body">
+            <h3>Personal Portfolio</h3>
+            <p>A portfolio website created with HTML and CSS to showcase my skills, resume, and contact info. Built as part of my CODSOFT Internship.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="assets/project2.jpg" alt="Landing Page Project">
+          <div class="card-body">
+            <h3>Landing Page</h3>
+            <p>A responsive landing page project using HTML and CSS to demonstrate layouts, sections, and design.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="assets/project3.jpg" alt="Calculator Project">
+          <div class="card-body">
+            <h3>Calculator</h3>
+            <p>A basic calculator app built with HTML, CSS, and JavaScript supporting operations and keyboard input.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume" class="section alt">
+    <div class="container">
+      <h2>Resume</h2>
+      <p>Download my resume as PDF.</p>
+      <a class="btn primary" href="assets/resume.pdf" download>Download Resume</a>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <div class="contact-grid">
+        <div>
+          <p><strong>Email:</strong> ujjawalpandey0901@gmail.com</p>
+          <p><strong>Phone:</strong> 6206108829</p>
+          <p><strong>GitHub:</strong> <a href="https://github.com/ujjawalpandey0901-sys" target="_blank">github.com/ujjawalpandey0901-sys</a></p>
+          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ujjawal-pandey-954920346" target="_blank">linkedin.com/in/ujjawal-pandey-954920346</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>© <span id="year"></span> Ujjawal Kumar Pandey. All rights reserved.</small>
+      <div class="socials">
+        <a href="https://github.com/ujjawalpandey0901-sys" aria-label="GitHub">GitHub</a>
+        <a href="https://www.linkedin.com/in/ujjawal-pandey-954920346" aria-label="LinkedIn">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
